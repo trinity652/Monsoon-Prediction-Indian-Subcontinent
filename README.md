@@ -1,7 +1,5 @@
 # Time-series-analysis-ISMR
 
-# Project Proposal
-
 ## Forecasting trends In Indian Summer Monsoon Rainfall By Varying Architecture of Artificial Neural Networks(ANN)
 
 ### Timeline for the project is as follows:
