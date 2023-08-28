@@ -1,35 +1,7 @@
 # Monsoon Prediction Indian Subcontinent
 
 ## Forecasting trends In Indian Summer Monsoon Rainfall By Varying Architecture of Artificial Neural Networks(ANN)
-
-### Timeline for the project is as follows:
-
-Date | Targets
------|------
-11<sup>th</sup> February | <ul><li>Completing the Literature Survey</li> <li>Identification of various methods used for the purpose</li><li>Obtaining the dataset</li></ul>
-19<sup>th</sup> February |<ul><li>Preliminary plots on Data</li><li>Implementation of already devised algorithms as obtained from the literature survey</li><li>Identification of which method suits the best for Indian subcontinent</li><li>Plots of precision, recall, and F-measure will be obtained for the dataset for different algorithms used</li></ul>
-26<sup>th</sup> February |<ul><li>Making own changes to the algorithms</li> <li>Plots of precision, recall, and F-measure will be obtained for the dataset for different tweaks done</li></ul>
-12<sup>th</sup> March |<ul><li>To begin documentation</li><li>Improvisation based on loopholes detected during documentation</li></ul>
-19<sup>th</sup> March |<ul><li>Complete Documentation in both VIT and  Research paper formats</li><li>Final Demo and results</li></ul>
-
-
-## Plan of action: The algorithm to deal with this problem
-
-1. Read all the papers combining Indian Monsoon and Machine Learning.
-2. Find out details like:
-    
-    * Region for which prediction is done
-    * Dataset used: CSV or Satellite Image
-    * Features used
-    * Algorithm implemented
-    * Implement the algorithm after reading about it.
-    * Measure the accuracy.
-3. Read more on Indian Monsoon: The question to ask yourself is what features should I select for my SVM/ my learning algorithm. What factors influence Indian Monsoon in a particular region? Do they really?
-4. Classify the problem as Classification/ Regression. Predict.
-5. Let the documentation go on side by side.
-
-
-## Paper by whom, motivation, dataset, algorithm, results
+### Reference
 
 1. **Who**: Sahai, A.K., Soman, M.K. and Satyan, V., 2000. All India summer monsoon rainfall prediction using an artificial neural network. Climate dynamics, 16(4), pp.291-302.  
 
