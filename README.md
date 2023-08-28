@@ -1,4 +1,4 @@
-# Time-series-analysis-ISMR
+# Monsoon Prediction Indian Subcontinent
 
 ## Forecasting trends In Indian Summer Monsoon Rainfall By Varying Architecture of Artificial Neural Networks(ANN)
 
@@ -21,7 +21,7 @@ Date | Targets
     * Region for which prediction is done
     * Dataset used: CSV or Satellite Image
     * Features used
-    * Algorithm implememnted
+    * Algorithm implemented
     * Implement the algorithm after reading about it.
     * Measure the accuracy.
 3. Read more on Indian Monsoon: The question to ask yourself is what features should I select for my SVM/ my learning algorithm. What factors influence Indian Monsoon in a particular region? Do they really?
@@ -36,16 +36,16 @@ Date | Targets
 **What**: Prediction of Indian Monsoon Rainfall using the artificial neural network (ANN) technique with error- back-propagation algorithm to provide prediction (hindcast) of ISMR on monthly and seasonal time scales.  
 
 **Important Papers They Have Referred**: 
-    1. General circulation models (GCMs) have also been used to predict ISMR. A comprehensive study of the performance of thirty three GCMs of the atmosphere by Sperber and Palmer (1996) has shown that the skill of the GCMs to simulate intraseasonal variations in ISMR is rather limited.
-    2. A large number of parameters have been identified and they have tended to fall into four general categories (Krishna Kumar et al. 1995): (1) regional conditions, (2) El Nino- Southern Oscillation (ENSO) indicators, (3) cross-equatorial flow and (4) global/hemispheric conditions. Among these predictors one or more are selected and linear regression, power regression or other statistical methods were developed for long range forecasting of ISMR.
-    3. The time-series analysis for prediction of ISMR, in which past values from ISMR seasonal mean time series are used to predict future values. Mooley and Parthasarathy (1984) have analysed periodicity in 100 years of data and found two cycles (2.8 year and 14 year). Satyan (1988) has analysed 16 years of data using the phase space approach and found that a strange attractor of dimensionality around 5.1 exists and the system has 12 relevant degrees of freedom.
-    4. Artificial neural networks (ANNs) has been extensively used for performing non-linear function approximation.  
+    1. General circulation models (GCMs) have also been used to predict ISMR. A comprehensive study of the performance of thirty-three GCMs of the atmosphere by Sperber and Palmer (1996) has shown that the skill of the GCMs to simulate intraseasonal variations in ISMR is rather limited.
+    2. A large number of parameters have been identified and they have tended to fall into four general categories (Krishna Kumar et al. 1995): (1) regional conditions, (2) El Nino- Southern Oscillation (ENSO) indicators, (3) cross-equatorial flow and (4) global/hemispheric conditions. Among these predictors, one or more are selected and linear regression, power regression or other statistical methods were developed for long-range forecasting of ISMR.
+    3. The time-series analysis for prediction of ISMR, in which past values from ISMR seasonal mean time series are used to predict future values. Mooley and Parthasarathy (1984) analysed periodicity in 100 years of data and found two cycles (2.8 years and 14 years). Satyan (1988) has analysed 16 years of data using the phase space approach and found that a strange attractor of dimensionality around 5.1 exists and the system has 12 relevant degrees of freedom.
+    4. Artificial neural networks (ANNs) have been extensively used for performing non-linear function approximation.  
 
-**Motivation**: They have used ANNs with the presumption that ISMR is not only related to previous seasonal mean but also with previous monthly mean.
+**Motivation**: They have used ANNs with the presumption that ISMR is not only related to the previous seasonal mean but also to the previous monthly mean.
 
 **Learning Algorithm**: 
-    1. The network designed for the present study consists of four layers input (25 neurons which are previous five year values from each time series of monthly mean ISMR values of June,July, August and September and the seasonal mean), output (1 neuron, the next year value from any one of the time series under consideration)and two hidden (2 and 4 neurons)
-    2. Thus the total number of connections 69 (62 weights and 7 biases) is less than 85 (number of training patterns) giving reduced possibility of overtraining. Networks are trained separately for seasonal, June, July, August and September mean time series. Depending on the nature of the activation function two models were developed for each time series and 10 networks were trained, two for each time series
+    1. The network designed for the present study consists of four layers input (25 neurons which are previous five-year values from each time series of monthly mean ISMR values of June, July, August and September and the seasonal mean), output (1 neuron, the next year value from any one of the time series under consideration)and two hidden (2 and 4 neurons)
+    2. Thus the total number of connections 69 (62 weights and 7 biases) is less than 85 (the number of training patterns) giving a reduced possibility of overtraining. Networks are trained separately for seasonal, June, July, August and September mean time series. Depending on the nature of the activation function two models were developed for each time series and 10 networks were trained, two for each time series
     3. 5 years and 5 features per year to help predict the rainfall.
     4. Specs: 25 input neurons, 2 hidden(2 and 4 neurons, respectively), and one output stating the predicted seasonal rainfall in mm.
     
